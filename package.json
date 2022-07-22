@@ -1,0 +1,36 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "PhotonSocket",
+  "version": "0.0.5",
+  "description": "Simple socketio multi game server thats architecture was influenced by Photonengine",
+  "main": "server.js",
+  "scripts": {
+    "start": "pm2 start server.js --no-daemon --watch"
+  },
+  "dependencies": {
+    "pm2": "4.5.0",
+    "express": "4.17.1",
+    "socket.io": "2.3.0",
+    "democracy": "*",
+    "cron": "1.8.2",
+    "fs-extra": "9.0.1",
+    "lodash": "4.17.20",
+    "request": "2.81.0",
+    "uwss": "uNetworking/uws-legacy#v2021.2.9",
+    "socket.io-msgpack-parser": "3.0.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
